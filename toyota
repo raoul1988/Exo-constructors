@@ -1,0 +1,96 @@
+package com.efunzo.be.training;
+
+public class Toyota extends Car {
+	
+	private String model;
+	private int years;
+	private int vitesse1;
+	private int vitess2;
+	private int vitesse3;
+	private String speedlevel;
+	
+
+
+	public Toyota(String model, int years, int vitesse1, int vitess2, int vitesse3, String speedlevel) {
+		super();
+		this.model = model;
+		this.years = years;
+		this.vitesse1 = vitesse1;
+		this.vitess2 = vitess2;
+		this.vitesse3 = vitesse3;
+		this.speedlevel = speedlevel;
+	}
+
+
+	public String getModel() {
+		return model;
+	}
+
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+
+	public int getYears() {
+		return years;
+	}
+
+
+	public void setYears(int years) {
+		this.years = years;
+	}
+
+
+	public int getVitesse1() {
+		return vitesse1;
+	}
+
+
+	public void setVitesse1(int vitesse1) {
+		this.vitesse1 = vitesse1;
+	}
+
+
+	public int getVitess2() {
+		return vitess2;
+	}
+
+
+	public void setVitess2(int vitess2) {
+		this.vitess2 = vitess2;
+	}
+
+
+	public int getVitesse3() {
+		return vitesse3;
+	}
+
+
+	public void setVitesse3(int vitesse3) {
+		this.vitesse3 = vitesse3;
+	}
+
+
+	public String getSpeedlevel() {
+		return speedlevel;
+	}
+
+
+	public void setSpeedlevel(String speedlevel) {
+		this.speedlevel = speedlevel;
+	}
+
+
+	
+	public String toString() {
+		return "Toyota [model=" + model + ", years=" + years + ", vitesse1=" + vitesse1 + ", vitess2=" + vitess2
+				+ ", vitesse3=" + vitesse3 + ", speedlevel=" + speedlevel + ", getModel()=" + getModel()
+				+ ", getYears()=" + getYears() + ", getVitesse1()=" + getVitesse1() + ", getVitess2()=" + getVitess2()
+				+ ", getVitesse3()=" + getVitesse3() + ", getSpeedlevel()=" + getSpeedlevel() + ", getMark()="
+				+ getMark() + ", gettypeVitesse()=" + gettypeVitesse() + ", getColor()=" + getColor()
+				+ ", getDirectionmeans()=" + getDirectionmeans() + ", toString()=" + super.toString()
+				+ ", getConsomation()=" + getConsomation() + ", getTires()=" + getTires() + ", getDoors()=" + getDoors()
+				+ ", getMoove()=" + getMoove() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
+	}
+
