@@ -1,0 +1,79 @@
+package com.efunzo.be.training;
+
+public class Vehicule {
+	
+	private String consomation;
+	private int tires;
+	private int doors;
+	private String moove;
+	
+	public Vehicule() {
+		
+	}
+
+	public Vehicule(String consomation, int tires, int doors, String moove) {
+		
+		this.consomation = consomation;
+		this.tires = tires;
+		this.doors = doors;
+		this.moove = moove;
+	}
+	
+	
+public void changevitesse() {
+	
+	System.out.println("Vehicule.changevitesse() called");
+}
+
+
+public void direct() {
+	
+	System.out.println("vehicule.direct() called");
+}
+
+public void moove() {
+	
+	System.out.println("vehicule.moove() called");
+}
+
+public String getConsomation() {
+	return consomation;
+}
+
+public void setConsomation(String consomation) {
+	this.consomation = consomation;
+}
+
+
+public int getTires() {
+	return tires;
+}
+
+public void setTires(int tires) {
+	this.tires = tires;
+}
+
+public int getDoors() {
+	return doors;
+}
+
+public void setDoors(int doors) {
+	this.doors = doors;
+}
+
+public String getMoove() {
+	return moove;
+}
+
+public void setMoove(String moove) {
+	this.moove = moove;
+}
+
+@Override
+public String toString() {
+	return "Vehicule [consomation=" + consomation + ", tires=" + tires + ", doors=" + doors + ", moove=" + moove + "]";
+	}
+
+}
+	
+
