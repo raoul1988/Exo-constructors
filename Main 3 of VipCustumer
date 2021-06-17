@@ -4,7 +4,8 @@ public class Main3 {
 
 	public static void main(String[] args) {
 		
-		VipCustumer vipCustumer = new VipCustumer("SONWA " ,400 , " sighano@yahoo.fr");
+		VipCustumer vipCustumer = new VipCustumer();
+		//("SONWA " ,400 , " sighano@yahoo.fr");
 		
 		vipCustumer.getCustumerName();
 		vipCustumer.getCustumerCreditLimit();
