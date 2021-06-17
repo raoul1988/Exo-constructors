@@ -1,0 +1,78 @@
+package com.efunzo.be.training;
+
+public class VipCustumer {
+
+	private String custumerName;
+	private double custumerCreditLimit;
+	private String custumerEmailAdress;
+	
+	public VipCustumer() {
+		
+		System.out.println("Empty constructor called");
+		
+		
+	}
+
+	public VipCustumer(String custumerName, double custumerCreditLimit) {
+		
+		System.out.println("VipCustumer constructor with 2 parameters called");
+		
+		this.custumerName = custumerName;
+		this.custumerCreditLimit = custumerCreditLimit;
+		
+		
+	}
+
+
+	public VipCustumer(String custumerName, double custumerCreditLimit, String custumerEmailAdress) {
+		
+		System.out.println("VipCustumer constructor with 3 parameters called");
+		
+		this.custumerName = custumerName;
+		this.custumerCreditLimit = custumerCreditLimit;
+		this.custumerEmailAdress = custumerEmailAdress;
+	}
+
+
+	public String getCustumerName() {
+		return custumerName;
+	}
+
+
+	public void setCustumerName(String custumerName) {
+		this.custumerName = custumerName;
+	}
+
+
+	public double getCustumerCreditLimit() {
+		return custumerCreditLimit;
+	}
+
+
+	public void setCustumerCreditLimit(double custumerCreditLimit) {
+		this.custumerCreditLimit = custumerCreditLimit;
+	}
+
+
+	public String getCustumerEmailAdress() {
+		return custumerEmailAdress;
+	}
+
+
+	public void setCustumerEmailAdress(String custumerEmailAdress) {
+		this.custumerEmailAdress = custumerEmailAdress;
+	}
+
+
+	@Override
+	public String toString() {
+		return "VipCustumer [custumerName=" + custumerName + ", custumerCreditLimit=" + custumerCreditLimit
+				+ ", custumerEmailAdress=" + custumerEmailAdress + "]";
+	}
+	
+	
+	
+
+	}
+
+
