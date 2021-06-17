@@ -1,0 +1,34 @@
+package com.efunzo.be.training;
+
+public class Main {
+
+	public static void main(String[] args) {
+	
+		Vehicule vehicule = new Vehicule("Fuel", 4 , 5 , "foward");
+
+	//public Vehicule(String consomation, int tires, int doors, String moove)		
+	
+		Car car = new Car("Tourism","Manual","Red","Handmean");
+	
+	//public Car(String mark, String typevitesse, String color, String directionmeans)
+	
+		Toyota toyota = new Toyota("Auris", 2013, 1, 2, 3, "High");
+	
+	//public Toyota(String model, int years, int vitesse1, int vitess2, int vitesse3, String speedlevel) 
+	
+	toyota.changevitesse();
+	toyota.directionmeans();
+	toyota.color();
+	toyota.direct();
+	
+    //System.out.println(car);
+	
+	//System.out.println(vehicule);
+	
+	System.out.println(toyota);
+	
+	
+	
+	}
+
+}
